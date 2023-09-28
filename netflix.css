@@ -1,0 +1,183 @@
+boby{
+    font-family: 'Bebas neue',sans-serif; /*  body  font change */
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(best-netflix-alternatives.jpg); /* bg img giving here bcz we need netflix logo on bg*/
+    background-size: cover;
+    background-position: 50%;
+    height: 90vh;
+}
+/*navbar*/
+nav img{
+    width: 13%;
+
+}
+.red-btn{
+    background: red;
+    color: white;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 5px 17px;
+
+}
+
+.red-btn:hover{
+    background: rgb(193, 17, 25);
+
+}
+.hero-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.hero-first-p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.hero-second-p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+form{
+    width: 60%;
+}
+form #floatinginput{
+    color: white;
+    
+}
+form.form-control:focus{
+    border-color: white;
+    box-shadow: none;
+    border-width: medium;
+}
+form .form-floating{
+    width: 50%;
+    
+}
+
+/*enjoy section*/
+
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section-paragraph{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+
+.faq-section button {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.faq-section .accordion{
+    --bs-accordion-color:rgb(255,255,255);
+    --bs-accordion-bg:rgb(45,45,45);
+    --bs-accordion-border-color:none;
+    --bs-accordion-border-radius:none;
+
+    
+    
+}
+
+.faq-section .accordion-button::after{
+    content: "+";
+    background-image: none;
+    position: absolute;
+    height: 30px;
+    font-size: 50px;
+    top:5px;
+    right: 45px;
+
+}
+
+/*footer*/
+
+footer{
+    border-top: 5px solid black;
+
+}
+footer p, footer a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+footer ul{
+    padding-left: 0;
+}
+footer li{
+    list-style-type: none;
+}
+footer img{
+    filter: invert();
+    top: 8px;
+    left: 12px;
+}
+footer select{
+    padding-left: 40px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    padding-right: 40px;
+}
+
+
+
+/*responsive*/
+
+@media only screen and (max-width: 992px){
+    nav img{
+        width: 17%;
+    }
+    .hero-title, .section-title{
+        font-size: 2rem;
+        font-weight: 700;
+
+    }
+
+    .hero-first-p, .hero-second-p, .section-paragraph, .faq-section h3{
+        font-size: 1.125rem;
+    }
+    .enjoy-section .container{
+        padding-top: 5rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px){
+    nav img{
+        width: 25%;
+    }
+ 
+    header{
+        height: 100vh;
+    }
+
+
+ 
+}
+
+
+
+@media only screen and (max-width: 576px){
+    nav img{
+        width: 35%;
+    }
+ 
+    header{
+        height: 110vh;
+    }
+
+    form .form-floating{
+        width: 90%;
+    }
+
+
+   
+}
